@@ -2,8 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos
 
 
-chat/*.env
-.env
+chat/*.venv
+.venv
 
 settings.json
 
