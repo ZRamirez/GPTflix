@@ -4,6 +4,7 @@
 
 chat/*.venv
 .venv
+/venv/
 
 settings.json
 
