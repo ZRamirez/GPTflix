@@ -19,7 +19,7 @@ openai.api_key = st.secrets["API_KEYS"]["openai"]
 
 #gptflix_logo = Image.open('./chat/logo.png')
 
-#bens_bites_logo = Image.open('./chat/Bens_Bites_Logo.jpg')
+bens_bites_logo = Image.open('./chat/Bens_Bites_Logo.jpg')
 
 # random user picture
 user_av = random.randint(0, 100)
@@ -88,7 +88,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("A side project by Stephan Sturges")
     st.markdown("Kept online by [Ben's Bites](%s)!" %bb_url)
-    st.image(bens_bites_logo, width=60)
+    #st.image(bens_bites_logo, width=60)
 
     st.markdown("---")
     st.markdown("Tech [info](%s) for you nerds out there!" %tech_url)
