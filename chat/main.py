@@ -12,14 +12,14 @@ from PIL import Image
 
 pinecone_api_key = st.secrets["API_KEYS"]["pinecone"]
 
-pinecone.init(api_key=pinecone_api_key, environment="us-east1-gcp")
+pinecone.init(api_key=pinecone_api_key, environment="us-west4-gcp")
 
 openai.api_key = st.secrets["API_KEYS"]["openai"]
 
 
 #gptflix_logo = Image.open('./chat/logo.png')
 
-bens_bites_logo = Image.open('./chat/Bens_Bites_Logo.jpg')
+#bens_bites_logo = Image.open('./chat/Bens_Bites_Logo.jpg')
 
 # random user picture
 user_av = random.randint(0, 100)
